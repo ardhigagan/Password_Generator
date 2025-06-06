@@ -1,0 +1,85 @@
+body {
+  background-color: #0f0f1a;
+  color: white;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #1c1c29;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+}
+
+.output-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a2a3a;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+#passwordDisplay {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  width: 100%;
+  outline: none;
+}
+
+#copyBtn {
+  background: none;
+  border: none;
+  color: #7fffd4;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.settings label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+.strength {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.strength .bars {
+  display: flex;
+  gap: 5px;
+  margin-top: 0.5rem;
+}
+
+.strength .bars span {
+  height: 10px;
+  width: 25%;
+  background: grey;
+  border-radius: 3px;
+}
+
+#generateBtn {
+  margin-top: 1rem;
+  padding: 0.6rem;
+  width: 100%;
+  background-color: #7fffd4;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
